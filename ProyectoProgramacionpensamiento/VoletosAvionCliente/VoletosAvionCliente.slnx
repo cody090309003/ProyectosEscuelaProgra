@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VoletosAvionCliente/VoletosAvionCliente.vcxproj" Id="eb1707f7-c0bf-4c58-ace7-b709ebf54a72" />
+</Solution>

@@ -1,0 +1,3 @@
+﻿  SistemaDeReservaDeBoletosDeAvion.cpp
+C:\Users\PC\source\repos\SistemaDeReservaDeBoletosDeAvion.cpp(39,9): error C3861: 'mostrarMenuPrincipal': no se encontró el identificador
+C:\Users\PC\source\repos\SistemaDeReservaDeBoletosDeAvion.cpp(134,17): error C3861: 'mostrarMenuAdmin': no se encontró el identificador
