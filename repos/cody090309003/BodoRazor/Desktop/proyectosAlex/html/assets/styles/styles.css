@@ -1,0 +1,53 @@
+/*#rojo{
+	background-color: red;
+}*/
+
+.main-title{
+	color: green;
+	text-align: center; 
+}
+
+.image-main{
+	width: 50%;
+    text-align: center; 
+}
+
+.main-title-blue{
+	color: blue;
+	text-align: center; 
+	position:absolute;
+}
+.main-title:hover{
+	color:black;
+}
+
+/*a{
+	text-decoration:none;
+	font-size:50px;	
+	text-align:center;
+	font-weight:bold;
+	color:aqua;
+}*/
+.no-underline{
+	text-decoration:none;
+}
+
+.meta{
+	color:green;
+}
+.first-container{
+	display: flex;
+}
+
+.footer{
+	blackground-color: green;
+	padding:10px;
+	text-align:center;
+
+}
+.hola{
+	width:30px;
+	height: 30px;
+	background-color: red;
+
+}

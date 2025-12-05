@@ -1,0 +1,4 @@
+C:\Users\PC\source\repos\Usuario.cpp\obj\Debug\net10.0\Usuario.cpp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\Usuario.cpp\obj\Debug\net10.0\Usuario.cpp.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Usuario.cpp\obj\Debug\net10.0\Usuario.cpp.AssemblyInfo.cs
+C:\Users\PC\source\repos\Usuario.cpp\obj\Debug\net10.0\Usuario.cpp.csproj.CoreCompileInputs.cache

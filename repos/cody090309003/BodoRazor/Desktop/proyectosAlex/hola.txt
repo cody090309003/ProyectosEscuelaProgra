@@ -1,0 +1,73 @@
+pasos para crear una aplicacion react
+
+1. abro powershell
+y en la terminal escribo:
+node-v
+npm -v
+esto para ver la version de node en mi dispositivo y saber cual instalar 
+---------------------------------------------------------------------------------------------------------------------------------------
+3.crear la app react:
+npx create-react-app my-react-app
+entras al proyecto: cd my-react-proyect
+y lo activo de esta forma :
+npm start 
+me abre el puert 3000
+entro a estudio code para ver el codigo
+------------------------------------------------------------------------------------------------------------------------------------
+Pasos para react router dom
+
+como instalarlo : npm install react-router-dom
+
+dentro de la carpeta src vamos a crear un archivo ( router )
+ejemplo:
+
+import React from "react";
+import Acceso from "./components/Acceso/Acceso";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+const Router = () => {
+
+  return (
+    <BrowserRouter>
+      <Routes>
+                    <Rubros exact path="/"  element={Acceso} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default Router;
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+AHORA, el siguiente paso es crear los componentes el cual cada componente o carpeta debe de tener un archivo jsx y css para su modificacion
+y en cada archivo debe de ir lo siguiente :
+archivo.jsx:
+
+la estructura basica para empezar el proyecto es:
+
+     import React from 'react'
+     const nombre = () => {
+      return (
+
+           <div> ( el contenido del proyecto)</div>
+                 )
+           }
+
+archivo.ccs:
+(los estilos de tu proyecto)
+
+archivos.js en la carpeta json
+por lo que tengo entendido son archivos donde puedes mapear el codigo
+ejemplo en tu archivo jsx en la carpeta components
+tienes el siguiente codigo:
+te ubicas abajo de tu row y escribes:
+{Accesos.map((acceso, index) => (
+<div>(contenido)</div>
+
+))}
+cada ciudad es un objeto 
+
+
+
+
+
+
