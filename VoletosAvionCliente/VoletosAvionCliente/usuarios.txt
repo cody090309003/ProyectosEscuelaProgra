@@ -1,2 +1,0 @@
-1|Administrador|admin@correo.com|admin123
-2|Alejandro|Bodoraor@gmail.com|09030903
