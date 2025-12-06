@@ -1,0 +1,27 @@
+1.tener pila e internet
+2.abrir correo
+3.descargar el correo
+4.ubicar la carpeta de que dependencia nos envia el correo
+5.entrar a la carpeta de dependencia
+6. habrir la carpeta del paso 3 y cortarla en la carpeta de la dependencia
+7.extraer el .zip en la carpeta de la depencia
+8.entro en VisualStudioCode, habro la terminal y escribo 3 comandos:
+9. van en el siguiente orden
+9.1 git add -A (agregar) 
+9.2 git commit -m "mensaje" ( el mensaje es alucibo a lo que se hizo al codigo )
+9.3 git push (envia todo el codigo a repositorio)
+10. entramos a docker hub 
+11.buscamos la dependencia en docker hub
+12. una ves dentro de la dependencia vamos a la pestana build
+13.esperamos a que el build se ponga en verde
+14.vamos a portainer
+15.vamos a navegar hasta la seccion que dice sitiosZoram (la ultima de la pagina)
+16.entramos y posteriormente entramos a stacks
+17.buscamos la dependencia 
+18. entramos a la dependencia
+19.borramos el servicio (esta en la seccion de servicios)
+20.borramos y confirmamos
+21.entramos al editor
+22. bajamos hasta encontrar la seccion de opciones y le damos en update the stack
+23. tene que aparecer en verde y listo
+

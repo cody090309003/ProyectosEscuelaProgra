@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi pagina 2</title>
+	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- barra de navegacion -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Alex</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link " href="#">pagina 2</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="./pagina3.html">pagina 3</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<!-- aqui van las cards -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card">
+					  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Telescopio_refractor_de_aficionado_con_60mm_de_abertura..jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+						    <h5 class="card-title">hola</h5>
+						    <p class="card-text">una herramienta que nos permite ver a traves del cosmos y el universo</p>
+						    <a href="https://www.amazon.com.mx/AUOK-Telescopio-Refractor-Astron%C3%B3mico-principiantes/dp/B0B38H6BKN/ref=sr_1_1_sspa?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=KML2NKXCB6D3&keywords=telescopio&qid=1690482699&sprefix=telescopio%2Caps%2C260&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn btn-primary">comprar</a>
+					  </div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+					  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Telescopio_refractor_de_aficionado_con_60mm_de_abertura..jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+						    <h5 class="card-title">hola</h5>
+						    <p class="card-text">una herramienta que nos permite ver a traves del cosmos y el universo</p>
+						    <a href="https://www.amazon.com.mx/AUOK-Telescopio-Refractor-Astron%C3%B3mico-principiantes/dp/B0B38H6BKN/ref=sr_1_1_sspa?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=KML2NKXCB6D3&keywords=telescopio&qid=1690482699&sprefix=telescopio%2Caps%2C260&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn btn-primary">comprar</a>
+					  </div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+					  <img src="https://m.media-amazon.com/images/I/617wWIMBxML._AC_SL1500_.jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+						    <h5 class="card-title">lente de telescopio</h5>
+						    <p class="card-text">Celestron EdgeHD 800 XLT Optical Tube Assembly - 91030-XL</p>
+						    <a href="https://www.amazon.com.mx/Celestron-EdgeHD-Optical-Tube-Assembly/dp/B002PPDO74/ref=asc_df_B002PPDO74/?tag=gledskshopmx-20&linkCode=df0&hvadid=629825830446&hvpos=&hvnetw=g&hvrand=3821879201673123304&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1010067&hvtargid=pla-613114692151&psc=1" class="btn btn-primary">comprar</a>
+					  </div>
+				</div>
+			</div>
+			<footer>
+				<p>año &copy; <span  id="year"></span>mi pagina web</p>
+			</footer>
+			<script src="script.js"></script>
+			<script>
+				const yearElemento = document.getElementById('year');
+				yearElemento.textContent = new Date().getFullYear();;
+			</script>
+		</div>
+	</div>
+</body>
+</html>
+
